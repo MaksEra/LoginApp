@@ -15,6 +15,8 @@
 		4F4378602664328900759F1A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43785F2664328900759F1A /* WelcomeViewController.swift */; };
 		4F437882266445F400759F1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F437881266445F400759F1A /* SceneDelegate.swift */; };
 		4F43788A26644F6C00759F1A /* LoginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F43788926644F6C00759F1A /* LoginBackground.png */; };
+		4F43788E266453AD00759F1A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43788D266453AD00759F1A /* UIView.swift */; };
+		4F437891266453CC00759F1A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F437890266453CC00759F1A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4F43785F2664328900759F1A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4F437881266445F400759F1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F43788926644F6C00759F1A /* LoginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginBackground.png; path = ../../../../../Desktop/LoginBackground.png; sourceTree = "<group>"; };
+		4F43788D266453AD00759F1A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		4F437890266453CC00759F1A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		4F43784A26642AC500759F1A /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				4F43788C2664538300759F1A /* Extensions */,
 				4F43788B266452F600759F1A /* ViewControllers */,
 				4F43788826644E8800759F1A /* Models */,
 				4F43788726644E6D00759F1A /* Storyboards */,
@@ -103,6 +108,15 @@
 				4F43785F2664328900759F1A /* WelcomeViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F43788C2664538300759F1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F43788D266453AD00759F1A /* UIView.swift */,
+				4F437890266453CC00759F1A /* LoginView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F437891266453CC00759F1A /* LoginView.swift in Sources */,
+				4F43788E266453AD00759F1A /* UIView.swift in Sources */,
 				4F43785026642AC500759F1A /* LoginViewController.swift in Sources */,
 				4F4378602664328900759F1A /* WelcomeViewController.swift in Sources */,
 				4F43784C26642AC500759F1A /* AppDelegate.swift in Sources */,
